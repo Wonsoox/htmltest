@@ -4,17 +4,24 @@
 body {
   font-size: 14px;
 }
+:root {
+  --custom-width: min(430px, 100vw);
+  --design-width: 430;
+  --ratio: calc(var(--custom-width) / var(--design-width));
+}
+
+
 .v105_426 {
-  width: 430px;
-  height: 932px;
+  width: var(--custom-width);
+  height: calc(2.17 * var(--custom-width));
   background: rgba(255,255,255,1);
   padding: 10px 10px;
-  margin: 10px;
+  margin: auto;
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  padding: 0px;
   overflow: hidden;
+
 }
 .v105_427 {
   width: 298px;
