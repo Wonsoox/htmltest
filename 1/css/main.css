@@ -44,7 +44,8 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  margin: auto;
+  top: 670px;
+  left: 135px;
   overflow: hidden;
 }
 .v92_623 {
@@ -111,7 +112,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 298px;
-  left: 98px;
+  left: 20%;
   overflow: hidden;
 }
 .v92_628 {
